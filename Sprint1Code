@@ -5,12 +5,7 @@ int d=10;
 int e=11;
 int f=12;
 char x;
-void setup() {/*
-* LED Setup
-a=7  d=10
-b=8  e=11
-c=9  f=12
-*/
+void setup() {
 Serial.begin(9600);
 pinMode(a,OUTPUT);
 pinMode(b,OUTPUT);
